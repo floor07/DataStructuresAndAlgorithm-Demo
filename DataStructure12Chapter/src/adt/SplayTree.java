@@ -1,5 +1,7 @@
 package adt;
-
+/**
+ * 伸展树
+ * */
 public class SplayTree<AnyType extends Comparable<? super AnyType>> {
 	private BinaryNode<AnyType>root;
 	private BinaryNode<AnyType>nullNode;

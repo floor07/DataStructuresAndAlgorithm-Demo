@@ -549,30 +549,15 @@ public class RedBlackTree<AnyType extends Comparable<? super AnyType>> {
     {
         RedBlackTree<Integer> t = new RedBlackTree<>( );
         final int NUMS = 10;
-//        final int NUMS = 400000;
-//        final int GAP  =  35461;
-//
-//        System.out.println( "Checking... (no more output means success)" );
-//        for( int i = GAP; i != 0; i = ( i + GAP ) % NUMS ){
-//            t.insert( i );
-//        }
-//        t.printTree();
+
         for(int i=0;i<NUMS;i++){
         	t.insert(i);
         }
         t.printTree();
-//        t.remove(0);
-//        System.out.println("=================================");
-//        t.printTree();
+
         t.remove(0);
         System.out.println("=================================");
         t.printTree();
-//        if( t.findMin( ) != 1 || t.findMax( ) != NUMS - 1 )
-//            System.out.println( "FindMin or FindMax error!" +t.findMax( )+":"+t.findMin( ));
-//
-//        for( int i = 1; i < NUMS; i++ )
-//             if( !t.contains( i ) )
-//                 System.out.println( "Find error1!" );
       
     }
 }
