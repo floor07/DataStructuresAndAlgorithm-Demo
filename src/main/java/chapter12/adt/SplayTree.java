@@ -1,4 +1,5 @@
-package adt;
+package chapter12.adt;
+
 /**
  * 伸展树
  * */

@@ -1,8 +1,7 @@
-package adt;
+package chapter12.adt;
+
 
 import java.util.NoSuchElementException;
-
-
 
 
 /**
