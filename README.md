@@ -3,6 +3,9 @@
 src目录为源码
 image目录为博客中使用的图
 ## 相关博客对应地址
-[开源中国，union/find--不相交集合博客地址https://my.oschina.net/floor/blog/799061](https://my.oschina.net/floor/blog/799061)
+[开源中国，分治算法-归并，快排，快速选择地址 https://my.oschina.net/floor/blog/804749](https://my.oschina.net/floor/blog/804749)  
+
+[开源中国，union/find--不相交集合博客地址https://my.oschina.net/floor/blog/799061](https://my.oschina.net/floor/blog/799061)  
+
 [开源中国，红黑树博客地址https://my.oschina.net/floor/blog/794879](https://my.oschina.net/floor/blog/794879)  
-[开源中国，分治算法-归并，快排，快速选择地址 https://my.oschina.net/floor/blog/804749](https://my.oschina.net/floor/blog/804749)
+
