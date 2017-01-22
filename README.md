@@ -11,4 +11,6 @@ image目录为博客中使用的图
 
 [开源中国，单源最短路径https://my.oschina.net/floor/blog/809855](https://my.oschina.net/floor/blog/809855)
   
-[开源中国，最大网路流https://my.oschina.net/floor/blog/817122](https://my.oschina.net/floor/blog/817122)
+[开源中国，最大网路流https://my.oschina.net/floor/blog/817122](https://my.oschina.net/floor/blog/817122)  
+
+[开源中国，无线图最小生成树https://my.oschina.net/floor/blog/828337]（https://my.oschina.net/floor/blog/828337）
