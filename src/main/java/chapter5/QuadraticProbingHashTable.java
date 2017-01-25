@@ -15,9 +15,6 @@ public class QuadraticProbingHashTable<AnyType> {
 		public AnyType elements;//the element
 		public boolean isActive;//false if marked deleted
 		
-		public HashEntry(AnyType e){
-			this(e,true);
-		}
 		public HashEntry(AnyType e,boolean i){
 			this.elements=e;
 			this.isActive=i;
@@ -60,13 +57,12 @@ public class QuadraticProbingHashTable<AnyType> {
 	 * already present,do nothing
 	 * @param x the item to insert
 	 * */
-	@SuppressWarnings("unchecked")
 	public void insert(AnyType x){
 		int currentPos=this.findPos(x);
 		if(isActive(currentPos)){
 			return;
 		}
-		array[currentPos]=new HashEntry(x,true);
+		array[currentPos]=new HashEntry<AnyType>(x,true);
 		if(++currentSize>array.length/2){
 			this.rehash();
 		}
@@ -119,7 +115,6 @@ public class QuadraticProbingHashTable<AnyType> {
 	 * Rehashing for quadratic probing hash table
 	 * */
 	private void rehash(){
-		@SuppressWarnings("unused")
 		HashEntry<AnyType>[]oldArray=this.array;
 		this.allocateArray(nextPrine(this.array.length*2));
 		this.currentSize=0;
