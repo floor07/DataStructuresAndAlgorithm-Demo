@@ -124,7 +124,8 @@ public class WeightNegative {
 						wadj.getW().setDist(wadj.cvw + v.dist);
 						wadj.getW().setPath(v);
 						if (!wadj.getW().isInQueue) {
-							wadj.getW().isInQueue = false;
+							//修改错误
+							wadj.getW().isInQueue = true;
 							q.add(wadj.getW());
 						}
 					}
