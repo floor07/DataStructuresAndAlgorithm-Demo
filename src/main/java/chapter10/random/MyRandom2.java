@@ -34,7 +34,7 @@ public class MyRandom2 {
     }
 	
     /**
-     * 26与27和53的选择，基于实际经验，这样会产生最后的随机数
+     * 26与27和53的选择，基于实际经验，这样会产生最好的随机数
      * @return
      */
     public double next0_1() {
@@ -51,6 +51,9 @@ public static void main(String[] args) {
 	System.out.println((16l*0x5DEECE66DL+11)%((1L << 48) - 1));
 	System.out.println((16l*0x5DEECE66DL+11)&((1L << 48) - 1));
 	MyRandom2 rand=new MyRandom2();
+	for(int i=1;i<10;i++){
 	System.out.println(rand.nextInt());
+	}
+
 }
 }
