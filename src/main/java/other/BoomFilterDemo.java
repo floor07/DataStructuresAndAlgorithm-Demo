@@ -6,6 +6,8 @@ import com.google.common.hash.Funnel;
 import com.google.common.hash.PrimitiveSink;
 
 public class BoomFilterDemo {
+	//Funnel 提供 bloomFilter内部所需的 将hash对应bit数组的操作
+	//这里使用枚举是保证序列化有效
 	public enum BookFunnel implements Funnel<Book> {
 		FUNNEL;
 		public void funnel(Book from, PrimitiveSink into) {
@@ -45,6 +47,8 @@ public class BoomFilterDemo {
 	}
 }
   public static void main(String[] args) {
+	 //BloomFilter的静态方法创建 ，第一个参数是对应的Funnel的实现类,第二个参数是预计存入BloomFilter的对象数
+	  //随着存入BloomFilter的对象数上升，误判率上升
 	BloomFilter<Book>boomFileter=BloomFilter.create(BookFunnel.FUNNEL, 5);
 	Book book=new Book();
 	book.setIsbn("20171214-001");
