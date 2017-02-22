@@ -67,6 +67,7 @@ public class QuadraticProbingHashTable<AnyType> {
 			this.rehash();
 		}
 	}
+	
 	/**
 	 * Remove from the hash table
 	 * @param x the item to remove

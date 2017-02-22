@@ -18,3 +18,5 @@ image目录为博客中使用的图
 [开源中国， 随机化算法与素性测试https://my.oschina.net/floor/blog/835919](https://my.oschina.net/floor/blog/835919)
 
 [开源中国， 举例分析动态规划算法https://my.oschina.net/floor/blog/841535](https://my.oschina.net/floor/blog/841535)
+
+[开源中国， 回溯算法https://my.oschina.net/floor/blog/843961](https://my.oschina.net/floor/blog/843961)
