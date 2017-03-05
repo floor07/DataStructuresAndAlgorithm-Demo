@@ -62,7 +62,6 @@ public class BinomialQueue<AnyType extends Comparable<? super AnyType>> {
 		currentSize=0;
 	}
 	public void merge(BinomialQueue<AnyType>rhs){
-	//TBD
 		if(this==rhs){
 			return;
 		}
