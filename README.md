@@ -1,5 +1,5 @@
-# DataStructuresAndAlgorithm
-数据结构与算法分析（Java语言描述版本）中介绍的算法与数据结构
+# DataStructuresAndAlgorithm-Demo
+数据结构与算法分析（Java语言描述版本）第2版本中介绍的算法与数据结构，结合自己理解生成的项目
 src目录为源码
 image目录为博客中使用的图
 ## 相关博客对应地址
