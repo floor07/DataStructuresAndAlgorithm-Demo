@@ -247,16 +247,17 @@ public class SortDemo {
 			a[j] = tmp;
 		}
 
-		public static <AnyType extends Comparable<? super AnyType>> void insertSort(AnyType[] a, int left, int right) {
-			int j = 0;
-			for (int p = left; p <= right; p++) {
-				AnyType tmp = a[p];
-				for (j = p; j > 0 && tmp.compareTo(a[j - 1]) < 0; j--) {
-					a[j] = a[j - 1];
-				}
-				a[j] = tmp;
-			}
-		}
+	       private static <AnyType extends  Comparable<? super AnyType>> void insertSort (AnyType[] array, int left, int right) {
+
+       		 for ( int p=left+1 ; p < right ; p++) {
+                   AnyType needInsert = array[p];
+                   int j;
+                  for ( j=p ; j>left && needInsert.compareTo( array[j-1] ) < 0 ; j--){
+                   array[j]=array[j-1];
+                  }
+                  array[j] = needInsert;
+                }
+              }
 	}
 
 	public static void main(String[] args) {
